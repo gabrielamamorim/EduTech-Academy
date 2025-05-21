@@ -36,8 +36,8 @@
             <div id="secao-nossos-cursos" class="flex flex-col gap-5">
                 <h2 style="background-color: #F9F9F9;" class="font-bold text-left text-xl mb-6">Nossos Cursos</h2>
                 
-                <div id="web-fullstack" class="shadow-lg">
-                    <img src="./imagens/fullstack.jpg" alt="Image Web Fullstack Dev" class="rounded-lg">
+                <div id="web-fullstack" class="shadow-lg max-w-sm w-full">
+                    <img src="./imagens/fullstack.jpg" alt="Image Web Fullstack Dev" class="rounded-lg max-w-sm w-full">
                     
                     <div style="background-color: #F9F9F9;" class="sm:max-w-xs w-full flex flex-col p-5">
                         <div class="text-left mb-5">
@@ -58,12 +58,12 @@
                     </div>
                 </div>
 
-                <div id="data-science" class="relative">
+                <div id="data-science" class="shadow-lg max-w-sm w-full">
                     <img src="./imagens/data-science.jpg" alt="Image Web Fullstack Dev" class="rounded-lg max-w-sm w-full">
                     
                     <div style="background-color: #F9F9F9;" class="sm:max-w-xs w-full flex flex-col p-5">
                         <div class="text-left mb-5">
-                            <h3 class="font-bold text-md mb-1">Desenvolvimento Web Fullstack</h3>
+                            <h3 class="font-bold text-md mb-1">Data Science & Machine Learning</h3>
                             
                             <div class="flex gap-1 mb-1 ">
                                 <img src="./imagens/clock.svg" alt="Icon Clock" class="w-4">
@@ -80,12 +80,12 @@
                     </div>
                 </div>
 
-                <div id="marketing" class="relative">
+                <div id="marketing" class="shadow-lg max-w-sm w-full">
                     <img src="./imagens/marketing.jpg" alt="Image Web Fullstack Dev" class="rounded-lg max-w-sm w-full">
                     
                     <div style="background-color: #F9F9F9;" class="sm:max-w-xs w-full flex flex-col p-5">
                         <div class="text-left mb-5">
-                            <h3 class="font-bold text-md mb-1">Desenvolvimento Web Fullstack</h3>
+                            <h3 class="font-bold text-md mb-1">Marketing Digital & SEO</h3>
                             
                             <div class="flex gap-1 mb-1 ">
                                 <img src="./imagens/clock.svg" alt="Icon Clock" class="w-4">
@@ -102,12 +102,12 @@
                     </div>
                 </div>
 
-                <div id="ux-design" class="relative">
+                <div id="ux-design" class="shadow-lg max-w-sm w-full">
                     <img src="./imagens/ux-design.jpg" alt="Image Web Fullstack Dev" class="rounded-lg max-w-sm w-full">
                     
                     <div style="background-color: #F9F9F9;" class="sm:max-w-xs w-full flex flex-col p-5">
                         <div class="text-left mb-5">
-                            <h3 class="font-bold text-md mb-1">Desenvolvimento Web Fullstack</h3>
+                            <h3 class="font-bold text-md mb-1">UX/UI Design</h3>
                             
                             <div class="flex gap-1 mb-1 ">
                                 <img src="./imagens/clock.svg" alt="Icon Clock" class="w-4">
@@ -125,6 +125,71 @@
                 </div>
 
             </div>
+
+            <div id="secao-matricula">
+                <h2>Matrícula</h2>
+
+                <div>
+                    <h3>Formulário de Matrícula</h3>
+
+                    <div>
+                        <h4>Nome Completo *</h4>
+                        <input type="text" placeholder="Digite seu nome completo">
+                    </div>
+
+                    <div>
+                        <h4>Email *</h4>
+                        <input type="text" placeholder="Digite seu email">
+                    </div>
+
+                    <div>
+                        <h4>Telefone *</h4>
+                        <input type="text" placeholder="(00) 00000-0000">
+                    </div>
+
+                    <div>
+                        <h4>CPF *</h4>
+                        <input type="text" placeholder="000.000.000-00">
+                    </div>
+
+                    <select name="" id="curso">
+                        <option value="" disabled selected>Selecione um curso</option>
+                        <option value="">Desenvolvimento Web Fullstack</option>
+                        <option value="">Data Science & Machine Learning</option>
+                        <option value="">Marketing Digital & SEO</option>
+                        <option value="">UX/UI Design</option>
+                    </select>
+
+                    <div>
+                        <h4>CEP *</h4>
+                        <input type="text" placeholder="00000-000">
+                    </div>
+
+                    <div>
+                        <h4>Rua *</h4>
+                        <input type="text">
+                    </div>
+
+                    <div>
+                        <h4>Bairro *</h4>
+                        <input type="text">
+                    </div>
+
+                    <div>
+                        <h4>Cidade *</h4>
+                        <input type="text">
+                    </div>
+
+                    <div>
+                        <h4>Estado *</h4>
+                        <input type="text">
+                    </div>
+
+                    <button>Enviar Matrícula</button>
+
+                </div>
+            </div>
+
         </div>
     </main>
 </body>
